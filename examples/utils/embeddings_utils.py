@@ -20,7 +20,7 @@ def get_embedding(text: str, model="text-embedding-3-small", **kwargs) -> List[f
     text = text.replace("\n", " ")
 
     response = client.embeddings.create(input=[text], model=model, **kwargs)
-
+    # nb! the embedding itself is in data[0].embedding
     return response.data[0].embedding
 
 

@@ -140,3 +140,7 @@ examples/fine-tuned_qa/local_cache/*
 
 # PyCharm files
 .idea/
+examples/sport2_prepared_train.jsonl
+examples/sport2_prepared_valid.jsonl
+examples/sport2.jsonl
+examples/data/fine_food_reviews_with_embeddings_1k.csv
